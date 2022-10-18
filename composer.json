@@ -37,6 +37,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/silverstripeltd/openapi-codegen-php.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/silverstripeltd/RingPHP.git"
     }
   ]
 }
