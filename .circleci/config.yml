@@ -71,6 +71,13 @@ commands:
         command: ST_ENGINE_NAME="php-integration-test-$CIRCLE_BUILD_NUM" vendor/bin/phpunit -c phpunit.xml.dist --testsuite integration
 
 jobs:
+  php-81-unit-tests:
+    <<: *unit_tests
+    <<: *php81
+
+  php-81-integration-tests:
+    <<: *integration_tests
+    <<: *php81
 
   php-81-unit-tests:
     <<: *unit_tests
